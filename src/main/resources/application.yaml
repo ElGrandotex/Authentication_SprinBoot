@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: login-jwt
+  datasource:
+    url: jdbc:postgresql://localhost:5433/loginSpring
+    username: postgres
+    password: Partyrock123*
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
